@@ -10,9 +10,13 @@
 
 <body>
 
-    <h1>Isaiah Flagg</h1>
 
     <nav>
+
+        <div class="myName">
+            <h1>Isaiah Flagg</h1>
+        </div>
+
         <div class="nav-links">
 
             <ul>
@@ -26,7 +30,8 @@
 
     <div class="contact">
 
-        <h2 class="myContact">Contact</h2>
+        <h2 class="myContact">Contact</h2><br>
+        <hr><br>
 
         <form action="submit">
             <label for="name">Name</label><br>
@@ -34,20 +39,21 @@
             <label for="email">Email</label><br>
             <input type="text" id="email" name="email" placeholder="example@email.com"><br>
             <label for="message">Message</label><br>
-            <input type="text" id="message" name="message"><br>
+            <textarea for="message" id="message"></textarea><br>
+            <input type="submit" value="submit" class="cBtn">
         </form>
 
         <!-- <p class="contactList">Name</p>
         <p class="contactList">Email</p>
         <p class="contactList">Message</p> -->
 
-        <button class="cBtn">Submit</button>
+        
 
     </div>
 
 
     <footer id="footer">
-        <p>Copyright ©</p>
+        <br><br><p>Copyright ©</p>
     </footer>
 </body>
 
